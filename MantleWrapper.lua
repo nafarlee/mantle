@@ -32,5 +32,6 @@ MantleWrapper.isNil = wrap(import './src/is-nil.lua')
 MantleWrapper.isBoolean = wrap(import './src/is-boolean.lua')
 MantleWrapper.isNumber = wrap(import './src/is-number.lua')
 MantleWrapper.isString = wrap(import './src/is-string.lua')
+MantleWrapper.isFunction = wrap(import './src/is-function.lua')
 
 return MantleWrapper
