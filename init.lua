@@ -16,5 +16,6 @@ M.isBoolean = import './src/is-boolean.lua'
 M.isNumber = import './src/is-number.lua'
 M.isString = import './src/is-string.lua'
 M.isFunction = import './src/is-function.lua'
+M.isTable = import './src/is-table.lua'
 
 return M
