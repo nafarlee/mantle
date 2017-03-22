@@ -11,5 +11,6 @@ setmetatable(M, {
 
 M.map = import './src/map.lua'
 M.assign = import './src/assign.lua'
+M.isNil = import './src/is-nil.lua'
 
 return M
