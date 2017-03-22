@@ -29,5 +29,6 @@ end
 MantleWrapper.map = wrap(import './src/map.lua' )
 MantleWrapper.assign = wrap(import './src/assign.lua')
 MantleWrapper.isNil = wrap(import './src/is-nil.lua')
+MantleWrapper.isBoolean = wrap(import './src/is-boolean.lua')
 
 return MantleWrapper
