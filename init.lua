@@ -1,15 +1,15 @@
 local import = require 'import.init'
 local MantleWrapper = import './MantleWrapper.lua'
 
-local _ = {}
+local M = {}
 
-setmetatable(_, {
+setmetatable(M, {
   __call = function(cls, ...)
     return MantleWrapper.new(...)
   end
 })
 
-_.map = import './src/map.lua'
-_.assign = import './src/assign.lua'
+M.map = import './src/map.lua'
+M.assign = import './src/assign.lua'
 
-return _
+return M
