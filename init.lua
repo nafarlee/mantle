@@ -14,5 +14,6 @@ M.assign = import './src/assign.lua'
 M.isNil = import './src/is-nil.lua'
 M.isBoolean = import './src/is-boolean.lua'
 M.isNumber = import './src/is-number.lua'
+M.isString = import './src/is-string.lua'
 
 return M
